@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 import 'package:hive_flutter/adapters.dart';
+import 'package:new_project/newscreen.dart';
+import 'package:new_project/screens/first_screen/first_screen.dart';
 import 'package:new_project/screens/main_screen/main_screen.dart';
 
 void main() async {
@@ -23,7 +25,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const MainScreen());
+        home: NewScreen());
   }
 }
-
